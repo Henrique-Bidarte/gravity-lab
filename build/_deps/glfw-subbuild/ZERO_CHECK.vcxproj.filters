@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Henrique Bidarte\Desktop\gravity-lab\build\_deps\glfw-subbuild\CMakeFiles\df51cbb21d55b6af3b6315408cbbd581\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A14D27D3-69FF-3B7F-993D-93142C8F463E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

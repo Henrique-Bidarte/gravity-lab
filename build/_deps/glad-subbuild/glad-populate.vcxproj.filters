@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Henrique Bidarte\Desktop\gravity-lab\build\_deps\glad-subbuild\CMakeFiles\023c2390537b7e972d34d9589dafcc82\glad-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Henrique Bidarte\Desktop\gravity-lab\build\_deps\glad-subbuild\CMakeFiles\023c2390537b7e972d34d9589dafcc82\glad-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Henrique Bidarte\Desktop\gravity-lab\build\_deps\glad-subbuild\CMakeFiles\023c2390537b7e972d34d9589dafcc82\glad-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Henrique Bidarte\Desktop\gravity-lab\build\_deps\glad-subbuild\CMakeFiles\023c2390537b7e972d34d9589dafcc82\glad-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Henrique Bidarte\Desktop\gravity-lab\build\_deps\glad-subbuild\CMakeFiles\023c2390537b7e972d34d9589dafcc82\glad-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Henrique Bidarte\Desktop\gravity-lab\build\_deps\glad-subbuild\CMakeFiles\023c2390537b7e972d34d9589dafcc82\glad-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Henrique Bidarte\Desktop\gravity-lab\build\_deps\glad-subbuild\CMakeFiles\023c2390537b7e972d34d9589dafcc82\glad-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Henrique Bidarte\Desktop\gravity-lab\build\_deps\glad-subbuild\CMakeFiles\023c2390537b7e972d34d9589dafcc82\glad-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Henrique Bidarte\Desktop\gravity-lab\build\_deps\glad-subbuild\CMakeFiles\637be89a49bfd127767771478021fb45\glad-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Henrique Bidarte\Desktop\gravity-lab\build\_deps\glad-subbuild\CMakeFiles\e5cd8180b5b68adf54410ac2d4ec8e5f\glad-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Henrique Bidarte\Desktop\gravity-lab\build\_deps\glad-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Henrique Bidarte\Desktop\gravity-lab\build\_deps\glad-subbuild\CMakeFiles\glad-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C43375D4-849D-3930-80A5-CAB2E1FD9B5C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
+		},
+		{
+			"file" : "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/df51cbb21d55b6af3b6315408cbbd581/glfw-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/53ee370a0609bad5bd004a7a26a14643/glfw-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/1270398bccd7b0a8be1bad6d01f807e2/glfw-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/1270398bccd7b0a8be1bad6d01f807e2/glfw-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/1270398bccd7b0a8be1bad6d01f807e2/glfw-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/1270398bccd7b0a8be1bad6d01f807e2/glfw-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/1270398bccd7b0a8be1bad6d01f807e2/glfw-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/1270398bccd7b0a8be1bad6d01f807e2/glfw-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/1270398bccd7b0a8be1bad6d01f807e2/glfw-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/1270398bccd7b0a8be1bad6d01f807e2/glfw-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glfw-populate"
+		],
+		"name" : "glfw-populate"
+	}
+}

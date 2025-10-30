@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{E6F4AE89-6077-3B3D-B62A-64F5E79A9C43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalProjectTargets", "ExternalProjectTargets", "{BC35ACD5-36DA-38D4-A434-27C8DCD85C7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "glad-populate", "ExternalProjectTargets\glad-populate", "{BC8BA8FF-F12E-34A6-A55F-283DC8D18CB9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{32F581FC-D3EF-3C74-9EB8-BD4BA080B80B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9CB1B3C9-0F2A-3E36-9B52-A1436A7332D2} = {9CB1B3C9-0F2A-3E36-9B52-A1436A7332D2}
+		{A426C466-2BA9-351B-9A33-AC1E1CBF8563} = {A426C466-2BA9-351B-9A33-AC1E1CBF8563}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{9CB1B3C9-0F2A-3E36-9B52-A1436A7332D2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glad-populate", "glad-populate.vcxproj", "{A426C466-2BA9-351B-9A33-AC1E1CBF8563}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9CB1B3C9-0F2A-3E36-9B52-A1436A7332D2} = {9CB1B3C9-0F2A-3E36-9B52-A1436A7332D2}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32F581FC-D3EF-3C74-9EB8-BD4BA080B80B}.Debug|x64.ActiveCfg = Debug|x64
+		{9CB1B3C9-0F2A-3E36-9B52-A1436A7332D2}.Debug|x64.ActiveCfg = Debug|x64
+		{9CB1B3C9-0F2A-3E36-9B52-A1436A7332D2}.Debug|x64.Build.0 = Debug|x64
+		{A426C466-2BA9-351B-9A33-AC1E1CBF8563}.Debug|x64.ActiveCfg = Debug|x64
+		{A426C466-2BA9-351B-9A33-AC1E1CBF8563}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32F581FC-D3EF-3C74-9EB8-BD4BA080B80B} = {E6F4AE89-6077-3B3D-B62A-64F5E79A9C43}
+		{9CB1B3C9-0F2A-3E36-9B52-A1436A7332D2} = {E6F4AE89-6077-3B3D-B62A-64F5E79A9C43}
+		{BC8BA8FF-F12E-34A6-A55F-283DC8D18CB9} = {BC35ACD5-36DA-38D4-A434-27C8DCD85C7D}
+		{A426C466-2BA9-351B-9A33-AC1E1CBF8563} = {BC8BA8FF-F12E-34A6-A55F-283DC8D18CB9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF259ACF-E428-3772-8C02-EAFCF5ACB9F0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

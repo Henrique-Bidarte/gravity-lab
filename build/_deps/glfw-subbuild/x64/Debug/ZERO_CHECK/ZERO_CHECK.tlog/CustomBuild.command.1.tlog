@@ -1,0 +1,10 @@
+^C:\USERS\HENRIQUE BIDARTE\DESKTOP\GRAVITY-LAB\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\DF51CBB21D55B6AF3B6315408CBBD581\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild" "-BC:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/glfw-populate.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

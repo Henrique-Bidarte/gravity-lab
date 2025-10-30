@@ -1,0 +1,14 @@
+# Target labels
+ glfw-populate
+# Source files and their labels
+C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate
+C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/df51cbb21d55b6af3b6315408cbbd581/glfw-populate.rule
+C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/53ee370a0609bad5bd004a7a26a14643/glfw-populate-complete.rule
+C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/1270398bccd7b0a8be1bad6d01f807e2/glfw-populate-build.rule
+C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/1270398bccd7b0a8be1bad6d01f807e2/glfw-populate-configure.rule
+C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/1270398bccd7b0a8be1bad6d01f807e2/glfw-populate-download.rule
+C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/1270398bccd7b0a8be1bad6d01f807e2/glfw-populate-install.rule
+C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/1270398bccd7b0a8be1bad6d01f807e2/glfw-populate-mkdir.rule
+C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/1270398bccd7b0a8be1bad6d01f807e2/glfw-populate-patch.rule
+C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/1270398bccd7b0a8be1bad6d01f807e2/glfw-populate-test.rule
+C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/_deps/glfw-subbuild/CMakeFiles/1270398bccd7b0a8be1bad6d01f807e2/glfw-populate-update.rule
