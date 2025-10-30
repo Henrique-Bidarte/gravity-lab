@@ -24,21 +24,29 @@ int main()
     int segments = 4;
     const float PI = 3.141593f;
 
+    float xPos = 0.0f;
+    float yPos = 0.5f;
+    float yVel = 0.0f;
+    float gravity = -0.8f;
+
     while (!glfwWindowShouldClose(window))
     {
+        yVel += gravity * 0.01f;
+        yPos += yVel * 0.05f;
+
         glClear(GL_COLOR_BUFFER_BIT);
 
         glBegin(GL_TRIANGLE_FAN);
         glColor3f(1.0f, 1.0f, 1.0f);
 
-        glVertex2f(0.0f, 0.0f);
+        glVertex2f(xPos, yPos);
 
         for (int i = 0; i <= segments; i++)
         {
             float angle = i * 2.0f * PI / segments;
             float x = radius * cos(angle);
             float y = radius * sin(angle);
-            glVertex2f(x, y);
+            glVertex2f(xPos + x, yPos + y);
         }
 
         glEnd();
