@@ -1,0 +1,10 @@
+^C:\USERS\HENRIQUE BIDARTE\DESKTOP\GRAVITY-LAB\BUILD\CMAKEFILES\6A4D9A336DF043C649253278571E2B3E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Henrique Bidarte/Desktop/gravity-lab" "-BC:/Users/Henrique Bidarte/Desktop/gravity-lab/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/gravity_lab.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
