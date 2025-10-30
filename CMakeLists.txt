@@ -15,5 +15,6 @@ target_link_libraries(gravity_lab PRIVATE
     glfw
     glad::glad
     glm::glm
+    opengl32
 )
 

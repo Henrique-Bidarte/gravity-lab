@@ -121,7 +121,7 @@ events:
       The output was:
       0
       Vers├úo do MSBuild 17.14.23+b0019275e para .NET Framework
-      Compila├º├úo de 30/10/2025 20:04:00 iniciada.
+      Compila├º├úo de 30/10/2025 20:18:26 iniciada.
       
       Projeto "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
       PrepareForBuild:
@@ -150,7 +150,7 @@ events:
           0 Aviso(s)
           0 Erro(s)
       
-      Tempo Decorrido 00:00:01.53
+      Tempo Decorrido 00:00:01.50
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -3793,8 +3793,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-ukz8wf"
-      binary: "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-ukz8wf"
+      source: "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-ugceot"
+      binary: "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-ugceot"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -3808,39 +3808,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-ukz8wf'
+        Change Dir: 'C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-ugceot'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d72e7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_74869.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Vers├úo do MSBuild 17.14.23+b0019275e para .NET Framework
-        Compila├º├úo de 30/10/2025 20:04:03 iniciada.
+        Compila├º├úo de 30/10/2025 20:18:28 iniciada.
         
-        Projeto "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukz8wf\\cmTC_d72e7.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ugceot\\cmTC_74869.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukz8wf\\Debug\\".
-          Criando o diret├│rio "cmTC_d72e7.dir\\Debug\\cmTC_d72e7.tlog\\".
+          Criando o diret├│rio "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ugceot\\Debug\\".
+          Criando o diret├│rio "cmTC_74869.dir\\Debug\\cmTC_74869.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_d72e7.dir\\Debug\\cmTC_d72e7.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_d72e7.dir\\Debug\\cmTC_d72e7.tlog\\unsuccessfulbuild".
+          Criando "cmTC_74869.dir\\Debug\\cmTC_74869.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_74869.dir\\Debug\\cmTC_74869.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_d72e7.dir\\Debug\\\\" /Fd"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukz8wf\\cmTC_d72e7.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_74869.dir\\Debug\\\\" /Fd"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ugceot\\cmTC_74869.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.44.35219 para x64
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_d72e7.dir\\Debug\\\\" /Fd"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukz8wf\\cmTC_d72e7.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_74869.dir\\Debug\\\\" /Fd"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ugceot\\cmTC_74869.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukz8wf\\Debug\\cmTC_d72e7.exe" /INCREMENTAL /ILK:"cmTC_d72e7.dir\\Debug\\cmTC_d72e7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-ukz8wf/Debug/cmTC_d72e7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-ukz8wf/Debug/cmTC_d72e7.lib" /MACHINE:X64  /machine:x64 cmTC_d72e7.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_d72e7.vcxproj -> C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukz8wf\\Debug\\cmTC_d72e7.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ugceot\\Debug\\cmTC_74869.exe" /INCREMENTAL /ILK:"cmTC_74869.dir\\Debug\\cmTC_74869.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-ugceot/Debug/cmTC_74869.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-ugceot/Debug/cmTC_74869.lib" /MACHINE:X64  /machine:x64 cmTC_74869.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_74869.vcxproj -> C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ugceot\\Debug\\cmTC_74869.exe
         FinalizeBuildStatus:
-          Excluindo o arquivo "cmTC_d72e7.dir\\Debug\\cmTC_d72e7.tlog\\unsuccessfulbuild".
-          Tocando "cmTC_d72e7.dir\\Debug\\cmTC_d72e7.tlog\\cmTC_d72e7.lastbuildstate".
-        Projeto de compila├º├úo pronto "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ukz8wf\\cmTC_d72e7.vcxproj" (destinos padr├úo).
+          Excluindo o arquivo "cmTC_74869.dir\\Debug\\cmTC_74869.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_74869.dir\\Debug\\cmTC_74869.tlog\\cmTC_74869.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ugceot\\cmTC_74869.vcxproj" (destinos padr├úo).
         
         Compila├º├úo com ├¬xito.
             0 Aviso(s)
             0 Erro(s)
         
-        Tempo Decorrido 00:00:01.30
+        Tempo Decorrido 00:00:01.34
         
       exitCode: 0
   -
@@ -3887,8 +3887,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-w02n12"
-      binary: "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-w02n12"
+      source: "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-ywqb72"
+      binary: "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-ywqb72"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -3901,39 +3901,39 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-w02n12'
+        Change Dir: 'C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-ywqb72'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1a4e3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_22c23.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Vers├úo do MSBuild 17.14.23+b0019275e para .NET Framework
-        Compila├º├úo de 30/10/2025 20:04:05 iniciada.
+        Compila├º├úo de 30/10/2025 20:18:31 iniciada.
         
-        Projeto "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w02n12\\cmTC_1a4e3.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ywqb72\\cmTC_22c23.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w02n12\\Debug\\".
-          Criando o diret├│rio "cmTC_1a4e3.dir\\Debug\\cmTC_1a4e3.tlog\\".
+          Criando o diret├│rio "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ywqb72\\Debug\\".
+          Criando o diret├│rio "cmTC_22c23.dir\\Debug\\cmTC_22c23.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_1a4e3.dir\\Debug\\cmTC_1a4e3.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_1a4e3.dir\\Debug\\cmTC_1a4e3.tlog\\unsuccessfulbuild".
+          Criando "cmTC_22c23.dir\\Debug\\cmTC_22c23.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_22c23.dir\\Debug\\cmTC_22c23.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++17 /Fo"cmTC_1a4e3.dir\\Debug\\\\" /Fd"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w02n12\\cmTC_1a4e3.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w02n12\\src.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++17 /Fo"cmTC_22c23.dir\\Debug\\\\" /Fd"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ywqb72\\cmTC_22c23.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ywqb72\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.44.35219 para x64
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++17 /Fo"cmTC_1a4e3.dir\\Debug\\\\" /Fd"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w02n12\\cmTC_1a4e3.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w02n12\\src.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++17 /Fo"cmTC_22c23.dir\\Debug\\\\" /Fd"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ywqb72\\cmTC_22c23.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ywqb72\\src.cxx"
           src.cxx
-        C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w02n12\\src.cxx(1,10): error C1083: N├úo ├® poss├¡vel abrir arquivo incluir: 'pthread.h': No such file or directory [C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w02n12\\cmTC_1a4e3.vcxproj]
-        Projeto de compila├º├úo pronto "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w02n12\\cmTC_1a4e3.vcxproj" (destinos padr├úo) -- FALHA.
+        C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ywqb72\\src.cxx(1,10): error C1083: N├úo ├® poss├¡vel abrir arquivo incluir: 'pthread.h': No such file or directory [C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ywqb72\\cmTC_22c23.vcxproj]
+        Projeto de compila├º├úo pronto "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ywqb72\\cmTC_22c23.vcxproj" (destinos padr├úo) -- FALHA.
         
         FALHA da compila├º├úo.
         
-        "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w02n12\\cmTC_1a4e3.vcxproj" (destino padr├úo) (1) ->
+        "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ywqb72\\cmTC_22c23.vcxproj" (destino padr├úo) (1) ->
         (ClCompile destino) -> 
-          C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w02n12\\src.cxx(1,10): error C1083: N├úo ├® poss├¡vel abrir arquivo incluir: 'pthread.h': No such file or directory [C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w02n12\\cmTC_1a4e3.vcxproj]
+          C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ywqb72\\src.cxx(1,10): error C1083: N├úo ├® poss├¡vel abrir arquivo incluir: 'pthread.h': No such file or directory [C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ywqb72\\cmTC_22c23.vcxproj]
         
             0 Aviso(s)
             1 Erro(s)
         
-        Tempo Decorrido 00:00:00.93
+        Tempo Decorrido 00:00:00.87
         
       exitCode: 1
   -
@@ -3951,8 +3951,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-1eugt7"
-      binary: "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-1eugt7"
+      source: "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-kl99sk"
+      binary: "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-kl99sk"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -3965,41 +3965,41 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-1eugt7'
+        Change Dir: 'C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-kl99sk'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_653f7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c197c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Vers├úo do MSBuild 17.14.23+b0019275e para .NET Framework
-        Compila├º├úo de 30/10/2025 20:04:07 iniciada.
+        Compila├º├úo de 30/10/2025 20:18:32 iniciada.
         
-        Projeto "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1eugt7\\cmTC_653f7.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kl99sk\\cmTC_c197c.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1eugt7\\Debug\\".
-          Criando o diret├│rio "cmTC_653f7.dir\\Debug\\cmTC_653f7.tlog\\".
+          Criando o diret├│rio "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kl99sk\\Debug\\".
+          Criando o diret├│rio "cmTC_c197c.dir\\Debug\\cmTC_c197c.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_653f7.dir\\Debug\\cmTC_653f7.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_653f7.dir\\Debug\\cmTC_653f7.tlog\\unsuccessfulbuild".
+          Criando "cmTC_c197c.dir\\Debug\\cmTC_c197c.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_c197c.dir\\Debug\\cmTC_c197c.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++17 /Fo"cmTC_653f7.dir\\Debug\\\\" /Fd"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1eugt7\\cmTC_653f7.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1eugt7\\CheckFunctionExists.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++17 /Fo"cmTC_c197c.dir\\Debug\\\\" /Fd"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kl99sk\\cmTC_c197c.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kl99sk\\CheckFunctionExists.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.44.35219 para x64
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++17 /Fo"cmTC_653f7.dir\\Debug\\\\" /Fd"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1eugt7\\cmTC_653f7.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1eugt7\\CheckFunctionExists.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++17 /Fo"cmTC_c197c.dir\\Debug\\\\" /Fd"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kl99sk\\cmTC_c197c.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kl99sk\\CheckFunctionExists.cxx"
           CheckFunctionExists.cxx
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1eugt7\\Debug\\cmTC_653f7.exe" /INCREMENTAL /ILK:"cmTC_653f7.dir\\Debug\\cmTC_653f7.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-1eugt7/Debug/cmTC_653f7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-1eugt7/Debug/cmTC_653f7.lib" /MACHINE:X64  /machine:x64 cmTC_653f7.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthreads.lib' [C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1eugt7\\cmTC_653f7.vcxproj]
-        Projeto de compila├º├úo pronto "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1eugt7\\cmTC_653f7.vcxproj" (destinos padr├úo) -- FALHA.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kl99sk\\Debug\\cmTC_c197c.exe" /INCREMENTAL /ILK:"cmTC_c197c.dir\\Debug\\cmTC_c197c.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-kl99sk/Debug/cmTC_c197c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-kl99sk/Debug/cmTC_c197c.lib" /MACHINE:X64  /machine:x64 cmTC_c197c.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthreads.lib' [C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kl99sk\\cmTC_c197c.vcxproj]
+        Projeto de compila├º├úo pronto "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kl99sk\\cmTC_c197c.vcxproj" (destinos padr├úo) -- FALHA.
         
         FALHA da compila├º├úo.
         
-        "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1eugt7\\cmTC_653f7.vcxproj" (destino padr├úo) (1) ->
+        "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kl99sk\\cmTC_c197c.vcxproj" (destino padr├úo) (1) ->
         (Link destino) -> 
-          LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthreads.lib' [C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1eugt7\\cmTC_653f7.vcxproj]
+          LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthreads.lib' [C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kl99sk\\cmTC_c197c.vcxproj]
         
             0 Aviso(s)
             1 Erro(s)
         
-        Tempo Decorrido 00:00:01.08
+        Tempo Decorrido 00:00:01.10
         
       exitCode: 1
   -
@@ -4017,8 +4017,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-sv90f6"
-      binary: "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-sv90f6"
+      source: "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-g88isn"
+      binary: "C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-g88isn"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -4031,41 +4031,41 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-sv90f6'
+        Change Dir: 'C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-g88isn'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d8021.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d72b0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Vers├úo do MSBuild 17.14.23+b0019275e para .NET Framework
-        Compila├º├úo de 30/10/2025 20:04:08 iniciada.
+        Compila├º├úo de 30/10/2025 20:18:34 iniciada.
         
-        Projeto "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv90f6\\cmTC_d8021.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g88isn\\cmTC_d72b0.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv90f6\\Debug\\".
-          Criando o diret├│rio "cmTC_d8021.dir\\Debug\\cmTC_d8021.tlog\\".
+          Criando o diret├│rio "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g88isn\\Debug\\".
+          Criando o diret├│rio "cmTC_d72b0.dir\\Debug\\cmTC_d72b0.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_d8021.dir\\Debug\\cmTC_d8021.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_d8021.dir\\Debug\\cmTC_d8021.tlog\\unsuccessfulbuild".
+          Criando "cmTC_d72b0.dir\\Debug\\cmTC_d72b0.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_d72b0.dir\\Debug\\cmTC_d72b0.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++17 /Fo"cmTC_d8021.dir\\Debug\\\\" /Fd"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv90f6\\cmTC_d8021.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv90f6\\CheckFunctionExists.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++17 /Fo"cmTC_d72b0.dir\\Debug\\\\" /Fd"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g88isn\\cmTC_d72b0.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g88isn\\CheckFunctionExists.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.44.35219 para x64
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++17 /Fo"cmTC_d8021.dir\\Debug\\\\" /Fd"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv90f6\\cmTC_d8021.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv90f6\\CheckFunctionExists.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++17 /Fo"cmTC_d72b0.dir\\Debug\\\\" /Fd"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g88isn\\cmTC_d72b0.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g88isn\\CheckFunctionExists.cxx"
           CheckFunctionExists.cxx
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv90f6\\Debug\\cmTC_d8021.exe" /INCREMENTAL /ILK:"cmTC_d8021.dir\\Debug\\cmTC_d8021.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-sv90f6/Debug/cmTC_d8021.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-sv90f6/Debug/cmTC_d8021.lib" /MACHINE:X64  /machine:x64 cmTC_d8021.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthread.lib' [C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv90f6\\cmTC_d8021.vcxproj]
-        Projeto de compila├º├úo pronto "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv90f6\\cmTC_d8021.vcxproj" (destinos padr├úo) -- FALHA.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g88isn\\Debug\\cmTC_d72b0.exe" /INCREMENTAL /ILK:"cmTC_d72b0.dir\\Debug\\cmTC_d72b0.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-g88isn/Debug/cmTC_d72b0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/CMakeScratch/TryCompile-g88isn/Debug/cmTC_d72b0.lib" /MACHINE:X64  /machine:x64 cmTC_d72b0.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthread.lib' [C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g88isn\\cmTC_d72b0.vcxproj]
+        Projeto de compila├º├úo pronto "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g88isn\\cmTC_d72b0.vcxproj" (destinos padr├úo) -- FALHA.
         
         FALHA da compila├º├úo.
         
-        "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv90f6\\cmTC_d8021.vcxproj" (destino padr├úo) (1) ->
+        "C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g88isn\\cmTC_d72b0.vcxproj" (destino padr├úo) (1) ->
         (Link destino) -> 
-          LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthread.lib' [C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv90f6\\cmTC_d8021.vcxproj]
+          LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthread.lib' [C:\\Users\\Henrique Bidarte\\Desktop\\gravity-lab\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g88isn\\cmTC_d72b0.vcxproj]
         
             0 Aviso(s)
             1 Erro(s)
         
-        Tempo Decorrido 00:00:01.02
+        Tempo Decorrido 00:00:01.07
         
       exitCode: 1
   -
