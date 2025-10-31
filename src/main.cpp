@@ -25,24 +25,31 @@ int main()
 
     std::vector<CelestialBody> celestial_bodies;
 
-    CelestialBody body_A;
-    body_A.mass_kilograms = 0.5e13f;
-    body_A.radius_meters = 0.8f;
-    body_A.position_x_meters = -20.0f;
-    body_A.velocity_y_meters_per_second = -20.0f;
-    celestial_bodies.push_back(body_A);
-
     CelestialBody body_B;
-    body_B.mass_kilograms = 30.0e13f;
-    body_B.radius_meters = 2.8f;
+    body_B.mass_kilograms = 35.0e13f;
+    body_B.radius_meters = 2.0f;
     celestial_bodies.push_back(body_B);
 
+    CelestialBody body_A;
+    body_A.mass_kilograms = 0.2e13f;
+    body_A.radius_meters = 0.8f;
+    body_A.position_x_meters = -45.0f;
+    body_A.velocity_y_meters_per_second = 10.0f;
+    celestial_bodies.push_back(body_A);
+
     CelestialBody body_C;
-    body_C.mass_kilograms = 0.5e13f;
+    body_C.mass_kilograms = 0.2e13f;
     body_C.radius_meters = 0.8f;
-    body_C.position_x_meters = +20.0f;
-    body_C.velocity_y_meters_per_second = +20.0f;
+    body_C.position_x_meters = +45.0f;
+    body_C.velocity_y_meters_per_second = -10.0f;
     celestial_bodies.push_back(body_C);
+
+    CelestialBody body_D;
+    body_D.mass_kilograms = 0.1e13f;
+    body_D.radius_meters = 0.6f;
+    body_D.position_x_meters = +28.0f;
+    body_D.velocity_y_meters_per_second = -15.0f;
+    celestial_bodies.push_back(body_D);
 
     float last_frame_time_seconds = (float)glfwGetTime();
 
