@@ -102,7 +102,7 @@ int main()
     std::vector<CelestialBody> celestial_bodies;
 
     CelestialBody body_A;
-    body_A.mass_kilograms = 1.0e13f;
+    body_A.mass_kilograms = 0.5e13f;
     body_A.radius_meters = 0.8f;
     body_A.position_x_meters = -20.0f;
     body_A.velocity_y_meters_per_second = -20.0f;
@@ -114,7 +114,7 @@ int main()
     celestial_bodies.push_back(body_B);
 
     CelestialBody body_C;
-    body_C.mass_kilograms = 1.0e13f;
+    body_C.mass_kilograms = 0.5e13f;
     body_C.radius_meters = 0.8f;
     body_C.position_x_meters = +20.0f;
     body_C.velocity_y_meters_per_second = +20.0f;
