@@ -6,49 +6,67 @@ int main()
 {
     if (!glfwInit())
     {
-        std::cerr << "Error: GLFW\n";
+        std::cerr << "Error initializing GLFW\n";
         return -1;
     }
 
-    GLFWwindow *window = glfwCreateWindow(800, 800, "Gravity Lab", NULL, NULL);
+    GLFWwindow *window = glfwCreateWindow(800, 800, "Gravity Lab", nullptr, nullptr);
     if (!window)
     {
-        std::cerr << "Error: Window\n";
+        std::cerr << "Error creating window\n";
         glfwTerminate();
         return -1;
     }
 
     glfwMakeContextCurrent(window);
+    glfwSwapInterval(1);
 
-    float radius = 0.2f;
-    int segments = 4;
+    const float metersToNDC = 0.02f; // NDC goes from -1 to 1, so 1 unit = 50 meters :D
+
+    const float GRAVITY = -9.81f;
+
+    float posX_meters = 0.0f;       // Horizontal position in meters
+    float posY_meters = 40.0f;      // Vertical position in meters
+    float velY_metersPerSec = 0.0f; // Vertical velocity in m/s
+    float radius_meters = 0.50f;    // Object radius in meters
+
+    const int circleSegments = 4;
     const float PI = 3.141593f;
 
-    float xPos = 0.0f;
-    float yPos = 0.5f;
-    float yVel = 0.0f;
-    float gravity = -0.8f;
+    float lastFrameTime = (float)glfwGetTime();
 
     while (!glfwWindowShouldClose(window))
     {
-        yVel += gravity * 0.01f;
-        yPos += yVel * 0.05f;
+        float currentTime = (float)glfwGetTime();
+        float deltaTime = currentTime - lastFrameTime;
+        lastFrameTime = currentTime;
+
+        if (deltaTime > 0.02f)
+            deltaTime = 0.02f;
+
+        // Apply gravity
+        velY_metersPerSec += GRAVITY * deltaTime;     // v(t+dt) = v(t) + a*dt
+        posY_meters += velY_metersPerSec * deltaTime; // y(t+dt) = y(t) + v*dt
+
+        // ndc → normalized device coordinates
+        float posX_ndc = posX_meters * metersToNDC;
+        float posY_ndc = posY_meters * metersToNDC;
+        float radius_ndc = radius_meters * metersToNDC;
 
         glClear(GL_COLOR_BUFFER_BIT);
 
         glBegin(GL_TRIANGLE_FAN);
         glColor3f(1.0f, 1.0f, 1.0f);
 
-        glVertex2f(xPos, yPos);
+        glVertex2f(posX_ndc, posY_ndc);
 
-        for (int i = 0; i <= segments; i++)
+        for (int i = 0; i <= circleSegments; ++i)
         {
-            float angle = i * 2.0f * PI / segments;
-            float x = radius * cos(angle);
-            float y = radius * sin(angle);
-            glVertex2f(xPos + x, yPos + y);
+            float angle = i * 2.0f * PI / circleSegments;
+            float x = radius_ndc * cosf(angle);
+            float y = radius_ndc * sinf(angle);
+            glVertex2f(posX_ndc + x, posY_ndc + y);
         }
-
         glEnd();
 
         glfwSwapBuffers(window);
