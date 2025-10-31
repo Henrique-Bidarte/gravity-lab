@@ -55,7 +55,6 @@ void apply_mutual_gravity_and_integrate(
     bodyB.position_y_meters += bodyB.velocity_y_meters_per_second * delta_time_seconds;
 }
 
-// Desenha um corpo na tela
 void render_celestial_body(
     const CelestialBody &body,
     float meters_to_ndc_scale,
