@@ -1,46 +1,81 @@
 #include <GLFW/glfw3.h>
 #include <cmath>
 #include <iostream>
+#include <vector>
 
-struct Ball
+struct CelestialBody
 {
-    float posX_m = 0.0f;
-    float posY_m = 0.0f;
-    float velX_mps = 0.0f;
-    float velY_mps = 0.0f;
-    float radius_m = 0.25f;
+    float position_x_meters = 0.0f;
+    float position_y_meters = 0.0f;
+    float velocity_x_meters_per_second = 0.0f;
+    float velocity_y_meters_per_second = 0.0f;
 
-    float r = 1.0f, g = 1.0f, b = 1.0f;
+    float radius_meters = 0.5f;
+    float mass_kilograms = 1.0e14f;
+
+    float color_red = 1.0f;
+    float color_green = 1.0f;
+    float color_blue = 1.0f;
 };
 
-static const float PI = 3.141593f;
+static const float PI_const = 3.141593f;
+static const double gravitational_constant_G = 6.67430e-11; // m^3 kg^-1 s^-2
 
-void updatePhysics(Ball &ball, float dt, float gravity_mps2)
+void apply_mutual_gravity_and_integrate(
+    CelestialBody &bodyA,
+    CelestialBody &bodyB,
+    float delta_time_seconds,
+    float softening_distance_meters)
 {
-    ball.velY_mps += gravity_mps2 * dt;
-    ball.posX_m += ball.velX_mps * dt;
-    ball.posY_m += ball.velY_mps * dt;
+    double delta_x = (double)bodyB.position_x_meters - (double)bodyA.position_x_meters;
+    double delta_y = (double)bodyB.position_y_meters - (double)bodyA.position_y_meters;
+
+    double distance_squared = delta_x * delta_x + delta_y * delta_y +
+                              (double)softening_distance_meters * (double)softening_distance_meters;
+
+    double distance = std::sqrt(distance_squared);
+    double inverse_distance_cubed = 1.0 / (distance_squared * distance);
+
+    double accelerationA_x = gravitational_constant_G * (double)bodyB.mass_kilograms * delta_x * inverse_distance_cubed;
+    double accelerationA_y = gravitational_constant_G * (double)bodyB.mass_kilograms * delta_y * inverse_distance_cubed;
+
+    double accelerationB_x = -gravitational_constant_G * (double)bodyA.mass_kilograms * delta_x * inverse_distance_cubed;
+    double accelerationB_y = -gravitational_constant_G * (double)bodyA.mass_kilograms * delta_y * inverse_distance_cubed;
+
+    bodyA.velocity_x_meters_per_second += (float)(accelerationA_x * delta_time_seconds);
+    bodyA.velocity_y_meters_per_second += (float)(accelerationA_y * delta_time_seconds);
+
+    bodyB.velocity_x_meters_per_second += (float)(accelerationB_x * delta_time_seconds);
+    bodyB.velocity_y_meters_per_second += (float)(accelerationB_y * delta_time_seconds);
+
+    bodyA.position_x_meters += bodyA.velocity_x_meters_per_second * delta_time_seconds;
+    bodyA.position_y_meters += bodyA.velocity_y_meters_per_second * delta_time_seconds;
+
+    bodyB.position_x_meters += bodyB.velocity_x_meters_per_second * delta_time_seconds;
+    bodyB.position_y_meters += bodyB.velocity_y_meters_per_second * delta_time_seconds;
 }
 
-void renderBall(const Ball &ball, float metersToNDC, int segments)
+// Desenha um corpo na tela
+void render_celestial_body(
+    const CelestialBody &body,
+    float meters_to_ndc_scale,
+    int circle_segments)
 {
-    float x_ndc = ball.posX_m * metersToNDC;
-    float y_ndc = ball.posY_m * metersToNDC;
-    float r_ndc = ball.radius_m * metersToNDC;
+    float position_ndc_x = body.position_x_meters * meters_to_ndc_scale;
+    float position_ndc_y = body.position_y_meters * meters_to_ndc_scale;
+    float radius_ndc = body.radius_meters * meters_to_ndc_scale;
 
     glBegin(GL_TRIANGLE_FAN);
-    glColor3f(ball.r, ball.g, ball.b);
+    glColor3f(body.color_red, body.color_green, body.color_blue);
 
-    glVertex2f(x_ndc, y_ndc);
-
-    for (int i = 0; i <= segments; ++i)
+    glVertex2f(position_ndc_x, position_ndc_y);
+    for (int segment_index = 0; segment_index <= circle_segments; ++segment_index)
     {
-        float angle = i * 2.0f * PI / segments;
-        float x = r_ndc * cosf(angle);
-        float y = r_ndc * sinf(angle);
-        glVertex2f(x_ndc + x, y_ndc + y);
+        float angle = segment_index * 2.0f * PI_const / circle_segments;
+        glVertex2f(
+            position_ndc_x + radius_ndc * cosf(angle),
+            position_ndc_y + radius_ndc * sinf(angle));
     }
-
     glEnd();
 }
 
@@ -49,42 +84,74 @@ int main()
     if (!glfwInit())
         return -1;
 
-    GLFWwindow *window = glfwCreateWindow(800, 800, "Gravity Lab", nullptr, nullptr);
+    GLFWwindow *window = glfwCreateWindow(
+        800, 800,
+        "Gravity Lab",
+        nullptr, nullptr);
     if (!window)
         return -1;
 
     glfwMakeContextCurrent(window);
     glfwSwapInterval(1);
 
-    const float metersToNDC = 0.02f;
-    const int circleSegments = 4;
-    const float GRAVITY = -9.81f;
+    glClearColor(0.02f, 0.02f, 0.04f, 1.0f);
 
-    float lastTime = (float)glfwGetTime();
+    const float meters_to_ndc_conversion_scale = 0.02f;
+    const int number_of_circle_segments = 24;
+    const float gravitational_softening_distance_meters = 0.2f;
 
-    Ball ball;
-    ball.posX_m = 0.0f;
-    ball.posY_m = 40.0f;
-    ball.radius_m = 0.50f;
-    ball.r = 1.0f;
-    ball.g = 1.0f;
-    ball.b = 1.0f;
+    std::vector<CelestialBody> celestial_bodies;
 
-    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+    CelestialBody body_A;
+    body_A.mass_kilograms = 1.0e13f;
+    body_A.radius_meters = 0.8f;
+    body_A.position_x_meters = -20.0f;
+    body_A.velocity_y_meters_per_second = -20.0f;
+    celestial_bodies.push_back(body_A);
+
+    CelestialBody body_B;
+    body_B.mass_kilograms = 30.0e13f;
+    body_B.radius_meters = 2.8f;
+    celestial_bodies.push_back(body_B);
+
+    CelestialBody body_C;
+    body_C.mass_kilograms = 1.0e13f;
+    body_C.radius_meters = 0.8f;
+    body_C.position_x_meters = +20.0f;
+    body_C.velocity_y_meters_per_second = +20.0f;
+    celestial_bodies.push_back(body_C);
+
+    float last_frame_time_seconds = (float)glfwGetTime();
 
     while (!glfwWindowShouldClose(window))
     {
-        float now = (float)glfwGetTime();
-        float dt = now - lastTime;
-        lastTime = now;
+        float current_time_seconds = (float)glfwGetTime();
+        float delta_time_seconds = current_time_seconds - last_frame_time_seconds;
+        last_frame_time_seconds = current_time_seconds;
 
-        if (dt > 0.02f)
-            dt = 0.02f;
+        if (delta_time_seconds > 0.01f)
+            delta_time_seconds = 0.01f;
 
-        updatePhysics(ball, dt, GRAVITY);
+        for (int i = 0; i < (int)celestial_bodies.size(); ++i)
+        {
+            for (int j = i + 1; j < (int)celestial_bodies.size(); ++j)
+            {
+                apply_mutual_gravity_and_integrate(
+                    celestial_bodies[i],
+                    celestial_bodies[j],
+                    delta_time_seconds,
+                    gravitational_softening_distance_meters);
+            }
+        }
 
         glClear(GL_COLOR_BUFFER_BIT);
-        renderBall(ball, metersToNDC, circleSegments);
+        for (const auto &body : celestial_bodies)
+        {
+            render_celestial_body(
+                body,
+                meters_to_ndc_conversion_scale,
+                number_of_circle_segments);
+        }
 
         glfwSwapBuffers(window);
         glfwPollEvents();
