@@ -1,5 +1,7 @@
 #include <GLFW/glfw3.h>
 #include <vector>
+#include <string>
+#include <cstdio>
 #include "types.hpp"
 #include "physics.hpp"
 #include "render.hpp"
@@ -45,6 +47,11 @@ int main()
 
     float last_frame_time_seconds = (float)glfwGetTime();
 
+    float simulation_time_seconds = 0.0f;
+    int fps_frame_count = 0;
+    float fps_time_accumulator = 0.0f;
+    const float fps_update_interval = 0.25f;
+
     while (!glfwWindowShouldClose(window))
     {
         float current_time_seconds = (float)glfwGetTime();
@@ -53,6 +60,8 @@ int main()
 
         if (delta_time_seconds > 0.01f)
             delta_time_seconds = 0.01f;
+
+        simulation_time_seconds += delta_time_seconds;
 
         for (int i = 0; i < (int)celestial_bodies.size(); ++i)
         {
@@ -78,6 +87,21 @@ int main()
 
         glfwSwapBuffers(window);
         glfwPollEvents();
+
+        fps_frame_count += 1;
+        fps_time_accumulator += delta_time_seconds;
+        if (fps_time_accumulator >= fps_update_interval)
+        {
+            float fps = (float)fps_frame_count / fps_time_accumulator;
+            char title_buf[128];
+            std::snprintf(title_buf, sizeof(title_buf),
+                          "Gravity Lab — FPS: %.1f — Time: %.2fs",
+                          fps, simulation_time_seconds);
+            glfwSetWindowTitle(window, title_buf);
+
+            fps_frame_count = 0;
+            fps_time_accumulator = 0.0f;
+        }
     }
 
     glfwTerminate();
