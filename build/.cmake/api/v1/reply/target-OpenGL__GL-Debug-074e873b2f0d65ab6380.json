@@ -1,71 +1,53 @@
 {
 	"abstract" : true,
-	"artifacts" : 
-	[
-		{
-			"path" : "C:/vcpkg/installed/x64-windows/debug/lib/glad.lib"
-		}
-	],
-	"backtrace" : 7,
+	"backtrace" : 5,
 	"backtraceGraph" : 
 	{
 		"commands" : 
 		[
 			"_add_library",
 			"add_library",
-			"include",
 			"_find_package",
 			"find_package"
 		],
 		"files" : 
 		[
 			"C:/vcpkg/scripts/buildsystems/vcpkg.cmake",
-			"C:/vcpkg/installed/x64-windows/share/glad/gladTargets.cmake",
-			"C:/vcpkg/installed/x64-windows/share/glad/gladConfig.cmake",
+			"C:/Program Files/CMake/share/cmake-4.2/Modules/FindOpenGL.cmake",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
 			{
-				"file" : 3
+				"file" : 2
 			},
 			{
-				"command" : 4,
-				"file" : 3,
+				"command" : 3,
+				"file" : 2,
 				"line" : 7,
 				"parent" : 0
 			},
 			{
-				"command" : 3,
+				"command" : 2,
 				"file" : 0,
 				"line" : 904,
 				"parent" : 1
 			},
 			{
-				"file" : 2,
-				"parent" : 2
-			},
-			{
-				"command" : 2,
-				"file" : 2,
-				"line" : 27,
-				"parent" : 3
-			},
-			{
 				"file" : 1,
-				"parent" : 4
+				"parent" : 2
 			},
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 58,
-				"parent" : 5
+				"line" : 819,
+				"parent" : 3
 			},
 			{
 				"command" : 0,
 				"file" : 0,
 				"line" : 649,
-				"parent" : 6
+				"parent" : 4
 			}
 		]
 	},
@@ -74,16 +56,15 @@
 		"major" : 2,
 		"minor" : 9
 	},
-	"id" : "glad::glad::@6890427a1f51a3e7e1df",
+	"id" : "OpenGL::GL::@6890427a1f51a3e7e1df",
 	"imported" : true,
 	"local" : true,
-	"name" : "glad::glad",
-	"nameOnDisk" : "glad.lib",
+	"name" : "OpenGL::GL",
 	"paths" : 
 	{
 		"build" : ".",
 		"source" : "."
 	},
 	"sources" : [],
-	"type" : "STATIC_LIBRARY"
+	"type" : "INTERFACE_LIBRARY"
 }

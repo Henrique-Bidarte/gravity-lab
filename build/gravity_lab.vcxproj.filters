@@ -4,6 +4,12 @@
     <ClCompile Include="C:\Users\Henrique Bidarte\Desktop\gravity-lab\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Henrique Bidarte\Desktop\gravity-lab\src\physics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Henrique Bidarte\Desktop\gravity-lab\src\render.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Henrique Bidarte\Desktop\gravity-lab\CMakeLists.txt" />

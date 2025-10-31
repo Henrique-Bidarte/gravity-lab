@@ -15,6 +15,7 @@ C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake
 C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake
 C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/MSVC-CXX.cmake
 C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindOpenGL.cmake
 C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
 C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake
 C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake
@@ -34,18 +35,9 @@ C:/Users/Henrique Bidarte/Desktop/gravity-lab/CMakeLists.txt
 C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/4.2.0-rc1/CMakeCXXCompiler.cmake
 C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/4.2.0-rc1/CMakeRCCompiler.cmake
 C:/Users/Henrique Bidarte/Desktop/gravity-lab/build/CMakeFiles/4.2.0-rc1/CMakeSystem.cmake
-C:/vcpkg/installed/x64-windows/share/glad/gladConfig.cmake
-C:/vcpkg/installed/x64-windows/share/glad/gladConfigVersion.cmake
-C:/vcpkg/installed/x64-windows/share/glad/gladTargets-debug.cmake
-C:/vcpkg/installed/x64-windows/share/glad/gladTargets-release.cmake
-C:/vcpkg/installed/x64-windows/share/glad/gladTargets.cmake
 C:/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake
 C:/vcpkg/installed/x64-windows/share/glfw3/glfw3ConfigVersion.cmake
 C:/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-debug.cmake
 C:/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-release.cmake
 C:/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets.cmake
-C:/vcpkg/installed/x64-windows/share/glm/glmConfig-debug.cmake
-C:/vcpkg/installed/x64-windows/share/glm/glmConfig-release.cmake
-C:/vcpkg/installed/x64-windows/share/glm/glmConfig.cmake
-C:/vcpkg/installed/x64-windows/share/glm/glmConfigVersion.cmake
 C:/vcpkg/scripts/buildsystems/vcpkg.cmake

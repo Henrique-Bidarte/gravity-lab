@@ -136,6 +136,21 @@
 			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-MSVC.cmake"
 		},
 		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake"
+		},
+		{
 			"isExternal" : true,
 			"path" : "C:/vcpkg/installed/x64-windows/share/glfw3/glfw3ConfigVersion.cmake"
 		},
@@ -194,42 +209,6 @@
 		{
 			"isExternal" : true,
 			"path" : "C:/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-release.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/vcpkg/installed/x64-windows/share/glad/gladConfigVersion.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/vcpkg/installed/x64-windows/share/glad/gladConfig.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/vcpkg/installed/x64-windows/share/glad/gladTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/vcpkg/installed/x64-windows/share/glad/gladTargets-debug.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/vcpkg/installed/x64-windows/share/glad/gladTargets-release.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/vcpkg/installed/x64-windows/share/glm/glmConfigVersion.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/vcpkg/installed/x64-windows/share/glm/glmConfig.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/vcpkg/installed/x64-windows/share/glm/glmConfig-debug.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/vcpkg/installed/x64-windows/share/glm/glmConfig-release.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

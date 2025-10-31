@@ -3,10 +3,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "C:/vcpkg/installed/x64-windows/debug/bin/glfw3.dll"
+			"path" : "C:/vcpkg/installed/x64-windows/bin/glfw3.dll"
 		},
 		{
-			"path" : "C:/vcpkg/installed/x64-windows/debug/lib/glfw3dll.lib"
+			"path" : "C:/vcpkg/installed/x64-windows/lib/glfw3dll.lib"
 		}
 	],
 	"backtrace" : 7,
@@ -35,7 +35,7 @@
 			{
 				"command" : 4,
 				"file" : 3,
-				"line" : 6,
+				"line" : 8,
 				"parent" : 0
 			},
 			{
